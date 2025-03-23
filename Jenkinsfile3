@@ -39,6 +39,7 @@ pipeline {
                     sh 'docker login -u $USERNAME -p $PASSWORD'
                 }
             }
+	}
         stage('Docker push') {
             steps {
                 script {
@@ -54,4 +55,5 @@ pipeline {
         }
     }
 }
+
 
