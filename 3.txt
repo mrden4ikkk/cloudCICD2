@@ -58,5 +58,5 @@ sudo systemctl restart jenkins
 
 sudo groupadd docker
 sudo usermod -aG docker jenkins
-Apt install docker.io -y
+apt install docker.io -y
 jenkins ALL=(ALL) NOPASSWD: /usr/bin/docker
