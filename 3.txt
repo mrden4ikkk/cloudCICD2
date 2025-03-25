@@ -53,7 +53,7 @@ sudo -u jenkins ssh-keyscan -t ed25519 github.com >> /var/lib/jenkins/.ssh/known
 sudo systemctl restart jenkins
 
 
-mv hello Jenkinsfile
+
 
 
 sudo groupadd docker
